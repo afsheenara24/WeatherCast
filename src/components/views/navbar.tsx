@@ -7,7 +7,7 @@ import { Search, MapPin } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useWeatherStore } from '@/lib/store';
 import { useOptimizedSearch } from '@/hooks/useOptimizedSearch';
-import LogoSvg from '@/public/svgs/logo';
+import LogoSvg from '../../../public/svgs/logo';
 
 const ModeToggle = dynamic(() => import('../theme-toggle'), {
   ssr: false,

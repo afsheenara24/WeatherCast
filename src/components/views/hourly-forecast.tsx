@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from 'react';
 import { Card } from '@/components/ui/card';
 import { Clock, CloudSnow } from 'lucide-react';
-import { ClearSky, Cloudy, Rainy, Sunny } from '@/public/svgs/weather';
+import { ClearSky, Cloudy, Rainy, Sunny } from '../../../public/svgs/weather';
 
 interface HourlyForecast {
   time: string;

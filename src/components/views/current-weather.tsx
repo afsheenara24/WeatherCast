@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from '@/components/ui/card';
 import { CloudRain, Wind, Droplets, Gauge } from 'lucide-react';
 import { CurrentWeatherResponse, ForecastResponse } from '@/types/weather';
-import { ClearSky, Cloudy, Rainy, Sunny } from '@/public/svgs/weather';
+import { ClearSky, Cloudy, Rainy, Sunny } from '../../../public/svgs/weather';
 
 interface CurrentWeatherCardProps {
   currentWeather: CurrentWeatherResponse;
