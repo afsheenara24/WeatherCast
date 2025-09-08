@@ -9,6 +9,8 @@ import { useOptimizedWeather } from '../hooks/useOptimizedWeather';
 import { ErrorFallback } from '../components/error-fallback';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useWeatherStore } from '../lib/store';
+import NavBar from '@/components/views/navbar';
+
 
 // Lazy loaded component
 const WeatherDashboard = lazy(() => import('../components/views/dashboard'));
@@ -123,4 +125,3 @@ export default function WeatherApp() {
 }
 
 // Import the navbar
-import NavBar from '@/components/views/navbar';
