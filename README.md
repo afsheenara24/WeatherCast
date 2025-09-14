@@ -9,7 +9,7 @@ Currently, WeatherCast is **API-driven**, but future enhancements will include *
 
 ## 🖼️ Preview  
 
-![WeatherCast Dashboard](./assets/Screenshot 2025-09-14 115105)  
+![WeatherCast Dashboard](./assests/Screenshot 2025-09-14 115105)  
 
 *(Replace `./assets/weathercast-preview.png` with the correct path or uploaded GitHub image link)*  
 
