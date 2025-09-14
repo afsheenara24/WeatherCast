@@ -11,7 +11,6 @@ Currently, WeatherCast is **API-driven**, but future enhancements will include *
 
 ![WeatherCast Dashboard](./assets/WeatherCast.png)  
 
-*(Replace `./assets/weathercast-preview.png` with the correct path or uploaded GitHub image link)*  
 
 ---
 
@@ -68,3 +67,22 @@ Located in the **WeatherCast** repository, this React application allows users t
 ```bash
 git clone https://github.com/afsheenara24/WeatherCast.git
 cd WeatherCast
+```
+
+### Install Dependencies
+```bash
+Copy code
+npm install
+```
+### Run the Application
+```bash
+Copy code
+npm run dev
+```
+### Usage
+- Access the dashboard at http://localhost:3000
+
+- View real-time weather conditions of your current location
+
+- Search for any city to get detailed forecasts and AQI data
+- Explore charts for temperature, humidity, daylight patterns, and air quality
